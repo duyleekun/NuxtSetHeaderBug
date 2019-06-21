@@ -1,6 +1,11 @@
 
 export default {
   mode: 'universal',
+  router: {
+    middleware: ['SetRandomCookie'],
+  },
+
+
   /*
   ** Headers of the page
   */
